@@ -20,19 +20,20 @@
             
             <div class="modal">
                 <form action="" method="POST">
+                    <h2 class="namelog">Login</h2>
                     <div id="email">
-                        <label for="email">E-mail:</label>
-                        <input type="email" id="email" placeholder="digite seu e-mail" name="email">
+                        <label for="email" >E-mail:</label><br>
+                        <input type="email" id="email" placeholder="Digite seu e-mail" name="email" required>
                     </div>
                     <div id="senha">
-                        <label for="senha">Senha:</label>
-                        <input type="password" id="senha" placeholder="digite sua senha" name="senha">
+                        <label for="senha">Senha:</label><br>
+                        <input type="password" id="senha" placeholder="Digite sua senha" name="senha">
                     </div>
                     <div class="entra">
-                        <input type="submit" value="entrar">
+                        <input type="submit" value="Entrar">
                     </div>
+                    <button class="fechar" onclick="onClose()">Cancelar</button>
                 </form>
-                <button class="fechar" onclick="onClose()">Fechar</button>
             </div>
         </main>
 
@@ -78,5 +79,23 @@
 
     <script src="./js/script.js"></script>
 </body>
+<footer>
+    <div class="container">
+    <h2 class="Ft-logo">FOTOGRAFIA <br>GELADA</h2>
+    <a href="https://x.com/?lang=pt-br" target="_blank">
+        <img src="/_Icones/Twitter.svg" alt="Twitter">
+    </a>
+    <a href="https://www.instagram.com/" target="_blank">
+        <img src="/_Icones/Instagram.svg" alt="Instagram">
+    </a>
+    <a href="https://www.youtube.com/?app=desktop&hl=pt" target="_blank">
+        <img src="/_Icones/youtube.svg" alt="Youtube">
+    </a>
+    <a href="https://www.tiktok.com/login?lang=pt-BR&redirect_url=https%3A%2F%2Fwww.tiktok.com%2Fupload%3Flang%3Dpt-BR" target="_blank">
+        <img src="/_Icones/tiktok.svg" alt="Tiktok">
+    </a>
 
+    <p>Copyright - 2024</p>
+</div>
+</footer>
 </html>
