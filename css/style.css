@@ -306,3 +306,10 @@ footer p {
     margin: 0;
    color: #FFFFFF; 
 }
+
+.painel h4{
+    justify-content: right;
+    text-align: right;
+    margin-left: 50vh;
+    display: inline-block;
+}
